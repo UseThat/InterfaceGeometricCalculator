@@ -3,5 +3,5 @@ interface Shape {
 
 
     double calculateArea();
-    double calculateParimiter();
+    double calculatePerimeter();
 }

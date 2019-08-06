@@ -1,8 +1,8 @@
-public class Circle implements Shape {
+public class Rectangle implements Shape {
     private double a;
 
 
-    public Circle(double a) {
+    public Rectangle(double a) {
         this.a = a;
 
     }
@@ -18,16 +18,14 @@ public class Circle implements Shape {
 
     @Override
     public double calculateArea() {
-        System.out.print("Area of circle is: ");
-
-        return Shape.PI * Math.pow(getA(), 2) ;
-
+        System.out.print("Area of rectangle is ");
+        return Math.pow(getA(),2);
     }
 
     @Override
     public double calculatePerimeter() {
-        System.out.print("Perimeter of circle is: ");
-        return 2 * Shape.PI * getA();
+        System.out.print("Perimeter of rectangle is ");
+        return getA()*4;
     }
 
 
