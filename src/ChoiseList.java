@@ -1,7 +1,8 @@
 public enum ChoiseList {
     RECTANGLE(1),
     CIRCLE(2),
-    TRIANGLE(3);
+    TRIANGLE(3),
+    EXIT(0);
 
     private int action;
 
